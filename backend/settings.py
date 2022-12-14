@@ -29,7 +29,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'xlw0bn$-e98e5l!t8r^ivhc9rz-1+7jqde=uqk+3*8a0m5duwl'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 # ALLOWED_HOSTS = ['*']
 ALLOWED_HOSTS = ['wholesale-governor-production.up.railway.app', '127.0.0.1', 'localhost',]
@@ -150,7 +150,7 @@ DATABASES = {
 
 # print(os.environ['DB_PASS'])
 
-DATABASES = {'default': dj_database_url.config(default='postgres://postgres:postgres@localhost:5433/proshop')}
+# DATABASES = {'default': dj_database_url.config(default='postgres://postgres:postgres@localhost:5433/proshop')}
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
