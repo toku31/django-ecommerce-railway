@@ -144,13 +144,14 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 #         'USER': 'postgres',
 #         'PASSWORD': 'postgres',
 #         'HOST': 'localhost',
-#         'PORT': '5433'
+#         'PORT': '5432'
+#         # 'PORT': '5433'
 #     }
 # }
 
 # print(os.environ['DB_PASS'])
 
-DATABASES = {'default': dj_database_url.config(default='postgres://postgres:postgres@localhost:5433/proshop')}
+DATABASES = {'default': dj_database_url.config(default='postgres://postgres:postgres@localhost:5432/proshop')}
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
