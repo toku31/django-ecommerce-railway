@@ -206,7 +206,7 @@ if os.getcwd() == '/app':
     DEBUG = False
 
 # whitenoise settings
-# STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
 
 CSRF_TRUSTED_ORIGINS = ['http://wholesale-governor-production.up.railway.app']
 
