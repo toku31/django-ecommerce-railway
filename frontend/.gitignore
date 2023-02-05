@@ -11,9 +11,8 @@
 # production
 # /build
 
-/backend/static
-
-/frontend/public/images
+# /backend/static
+# /frontend/public/images
 
 # misc
 .DS_Store
