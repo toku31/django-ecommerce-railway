@@ -194,11 +194,11 @@ STATICFILES_DIRS = [
     BASE_DIR / 'frontend/build/static'
 ]
 
-# MEDIA_ROOT = BASE_DIR / 'frontend/build/images'
-# MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'frontend/build/images'
+MEDIA_URL = '/media/'
 
-MEDIA_URL = '/images/' # localhost:800
-MEDIA_ROOT = BASE_DIR / 'staticfiles/images/'  # localhost:800
+# MEDIA_URL = '/images/' # localhost:800
+# MEDIA_ROOT = BASE_DIR / 'staticfiles/images/'  # localhost:800
 
 # MEDIA_ROOT = BASE_DIR / 'static/images'
 # STATIC_ROOT = BASE_DIR / 'static'
