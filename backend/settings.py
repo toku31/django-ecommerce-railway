@@ -205,7 +205,8 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR,  'static')]
 # ]
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 # STATIC_ROOT = BASE_DIR / 'staticfiles'
-
+print('BASE_DIR:', BASE_DIR)
+print('STATIC_ROOT:', STATIC_ROOT)
 
 CORS_ALLOW_ALL_ORIGINS = True
 
@@ -213,7 +214,7 @@ if os.getcwd() == '/app':
     DEBUG = False
 
 # whitenoise settings
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
+# STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
 
 CSRF_TRUSTED_ORIGINS = ['http://wholesale-governor-production.up.railway.app']
 
