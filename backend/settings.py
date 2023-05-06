@@ -190,12 +190,12 @@ USE_TZ = True
 
 
 # MEDIA_ROOT = BASE_DIR / 'frontend/build/images'
-# MEDIA_URL = '/images/'
+MEDIA_URL = '/images/'
 
 # MEDIA_URL = '/images/' # localhost:800
 # MEDIA_ROOT = BASE_DIR / 'staticfiles/images/'  # localhost:800
 
-MEDIA_ROOT = BASE_DIR / 'static/images'
+# MEDIA_ROOT = BASE_DIR / 'static/images'
 STATIC_ROOT = BASE_DIR / 'static'
 STATIC_URL = '/static/'
 # STATICFILES_DIRS = [os.path.join(BASE_DIR,  'static')]
